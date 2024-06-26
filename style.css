@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+img {
+  width: 450px; 
+  height: auto;
+}
+
+h1{
+  color: #fffb00;
+}
+
+p {
+  color: #96d35f;
+  font-size: 19px;
+}
+
+body{
+  color:#00c7fc
+}
+
+button {
+  color: #fff;
+  border: solid;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+.rock-button {
+  background-image: url("Rock.png");
+}
+.paper-button {
+  background-image: url("Paper.png");
+}
+.scissors-button {
+  background-image: url("Scissors.png");
+}
+button:hover {
+  opacity: 0.8;
+}
