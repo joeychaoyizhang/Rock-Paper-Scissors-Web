@@ -1,7 +1,7 @@
 async function getgame(userMove) {
   var result = document.getElementById("result");
   try{
-    var response = await fetch("https://cf6fc9b5-7461-4419-a6f8-16bca4aa156b-00-3rucax5zlh9m3.spock.replit.dev/Game", {
+    var response = await fetch("https://rock-paper-scissors-web.onrender.com/Game", {
       method: "POST",
       headers:{
         "Content-Type":"application/json"
